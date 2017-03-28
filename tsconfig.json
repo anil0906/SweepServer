@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6"
+  },
+  "compileOnSave": true,
+  "include": [
+    "./src/**/*"
+  ],
+  "atom": {
+   "formatOnSave": true
+ },
+ "exclude": [
+    "node_modules",
+    "dist",
+    "data",
+    "dev"
+  ]
+}
