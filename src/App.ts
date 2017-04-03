@@ -38,6 +38,9 @@ class App {
         router.post('/secure/createGame', (req, res) => {
             Controllers.createGameController(req.body, res);
         });
+        router.post('/secure/joinGame', (req, res) => {
+            Controllers.joinGameController(req.body, res);
+        });
         /* Public end points for unauthenticated operation */
         router.post('/public/createPlayer', (req, res) => {
             Controllers.createPlayerController(req.body, res);

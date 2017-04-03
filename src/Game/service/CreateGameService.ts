@@ -10,7 +10,6 @@ export default (game: ICreateGameRequest, player: IPlayer): any => {
             }).catch((reason) => {
                 reject(reason);
             });
-
         }).catch((reason: any) => {
             reject(reason);
         });
